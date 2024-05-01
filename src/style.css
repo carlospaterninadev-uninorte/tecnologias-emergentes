@@ -117,3 +117,8 @@ a:hover {
 .button:hover {
   background-color: #53f80b;
 }
+
+.cine {
+  background-color: red;
+  border: 1px solid green;
+}
