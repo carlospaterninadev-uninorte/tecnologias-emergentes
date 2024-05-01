@@ -12,55 +12,56 @@ table, caption, tbody, tfoot, thead, tr, th, td {
     padding: 0;
     border: 0;
     outline: 0;
-    font-weight: inherit;
-    font-style: inherit;
-    font-size: 100%;
-    font-family: inherit;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+    font-family: "Arial", sans-serif;
     vertical-align: baseline;
 }
 
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f5f5f5;
-    color: #333;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    line-height: 1.8;
+    background-color: #f0f0f0;
+    color: #555;
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
 /* Estilos para encabezados */
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Georgia", serif;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 /* Estilos para enlaces */
 a {
-    color: #007bff;
-    text-decoration: none;
+    color: #009688;
+    text-decoration: underline;
 }
 
 a:hover {
-    text-decoration: underline;
+    color: #00796b;
+    text-decoration: none;
 }
 
 /* Estilos para botones */
 .button {
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
+    padding: 12px 24px;
+    background-color: #4CAF50;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 8px;
     text-align: center;
     text-transform: uppercase;
     cursor: pointer;
 }
 
 .button:hover {
-    background-color: #0056b3;
+    background-color: #45a049;
 }
